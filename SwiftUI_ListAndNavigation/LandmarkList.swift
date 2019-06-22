@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LandmarkList.swift
 //  SwiftUI_ListAndNavigation
 //
 //  Created by sun on 22/6/2562 BE.
@@ -8,16 +8,16 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct LandmarkList : View {
     var body: some View {
-        Text("Hello World")
+        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct LandmarkList_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkList()
     }
 }
 #endif
