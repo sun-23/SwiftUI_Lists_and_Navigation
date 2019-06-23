@@ -18,8 +18,8 @@ struct LandmarkList : View {
                     LandmarkRow(landmark: landmark)
                 }
                 
-            }
-        }.navigationBarTitle(Text("Landmark"),displayMode: .inline)
+            }.navigationBarTitle(Text("Landmark"),displayMode: .automatic)
+        }
     }
 }
 
